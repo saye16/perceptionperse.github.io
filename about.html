@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title> About | Perception per se </title>
 	
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -18,20 +19,19 @@
 	<style>
 	body, html 
 	{
-    height: 100%;
-	width: 100%
+    max-height: 100%;
+    height: : 100%;
+	max-width: 100%
     margin: 0;
 	font-family: 'Homemade Apple', cursive;
 	color: rgba(255, 255, 255, 0.8);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+
 	}
 	.header{
 		background-position: center;
-		background-size: cover;
-		height: 100%;
+		background-size: auto;
+		max-height: 100%;
+		max-width: 100%;
 	}
 	h1
 	{
@@ -41,21 +41,25 @@
 	.bg {
     /* The image used */
     background-image: url("img/Trance.jpg");
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
     /* Full height */
-    height: 100%; 
+    height: 100%;
 
     /* Center and scale the image nicely */
-    background-position: absolute;
+    background-position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
-	height: 100%;
+	max-height: 100%;
+	max-width: 100%;
 	}
 	
 }
 	</style>
   </head>
-  <body>
+  <body style="background-color:#140c3f;">
     <div class="bg">
 	<header>
 	<center>
@@ -68,7 +72,7 @@
 	Expression is a language that can be understood by anyone, because there is a poet in me, in you and everyone.<br><br>
 	Explore the fantasies around. Let your thoughts, emotions and feelings flow. <br><br>
 	In the game of life, solutions are most likely uncertain.<br><br>
-	Therefore, Perception per se.</h5></p>
+	Therefore, Perception per se.</h5><br><br><br></p>
 	</center>
 	</header>
 	</div>
